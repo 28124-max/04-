@@ -6,7 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input(n%=5))
-print("Yes")
-else
-print("No")
+n = int(input("n:"))
+if n ==5:
+    print("Yes")
+else:
+    print("No")
