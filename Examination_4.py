@@ -7,10 +7,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี
-weight = float(input("n=น้ำหนักสินค้า"))
-if n= 1
- print("จ่าย30")
-if n<= 5
- print("จ่าย50")
-if n> 5
- print("จ่าย100")
+weight = float(input("น้ำหนักสินค้า"))
+if weight <=1:
+    print("จ่าย 30")
+if weight <=5:
+    print("จ่าย 50")
+if weight <5:
+    print("จ่าย 100")
